@@ -1,94 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wellington P. Silva</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://kit.fontawesome.com/3b22aa5327.js" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellington P. Silva</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3b22aa5327.js" crossorigin="anonymous"></script>
+  </head>
 
-<body>
-  <header>
-    <nav class="menu">
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-      </ul>
-    </nav>
-    <div>
-      <div>
-      <img class="img-perfil" src="img/perfil.jpg" alt="">
-      <h1 class="site-title">Wellington P. Silva</h1>
-      <h2 class="site-subtitle">Ciência da Computação</h2>  
-      </div>
-      <div class="menu-2">
+  <body>
+    <header id="home">
+
+      <nav class="menu">
         <ul>
-          <li><a href="https://www.instagram.com/wells.ps/" target="blank">
-          <img src="./img/instagram-logo.png" height="40" width="40"></a></li>
-          <li><a href="https://www.linkedin.com/in/wellingtonengps/" target="blank">
-          <img src="./img/linkedin-logo.png" height="40" width="40"></a></li>
-          <li><a href="https://github.com/wellingtonengps" target="blank">
-          <img src="./img/github-logo.png" height="40" width="40"></a></li>
-          <li><a href="https://www.facebook.com/wellingtonengps" target="blank">
-          <img src="./img/facebook-logo.png" height="40" width="40"></a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#competencias">Competências</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#projetos">Projetos</a></li>
         </ul>
-      </div>
-    </div>
-  </header>
-    <section class="sobre" id="sobre">
-      <h2 class="h2-pg">Sobre</h2>
-        <p>
-          Somente com humildade é possível chegar longe. Aquele que confia demais em si mesmo e que acredita que não precisa de ajuda para chegar aonde precisa chegar acaba se afogando antes de chegar na praia, por isso sigo sempre com humildade, reconhecendo aquilo que não sei e estando disposto a ouvir quando alguém se dispõe a me ensinar. <p>Competências:</p> 
-        </p>
-        <div class="grid">
-            <figure>
-              <i class="fab fa-js-square"></i>
-              <figcaption>JavaScript</figcaption>
-            </figure>
-            <figure>
-              <i class="fab fa-windows"></i>
-              <figcaption>Windows 7, 8, 10</figcaption>
-            </figure>
-            <figure>
-              <i class="fab fa-ubuntu"></i>
-              <figcaption>Ubuntu</figcaption>
-            </figure>
-           <figure>
-              <i class="fab fa-adobe"></i>
-              <figcaption>Adobe Photoshop</figcaption>
-           </figure>
-           <figure>
-              <i class="fab fa-css3-alt"></i>
-              <figcaption>CSS3</figcaption>
-           </figure>
-           <figure>
-              <i class="fab fa-html5"></i>
-              <figcaption>HTML5</figcaption>
-           </figure>
-           <figure>
-              <i class="fab fa-python"></i>
-              <figcaption>Python</figcaption>
-           </figure>
-           <figure>
-              <i class="fab fa-git-alt"></i>
-              <figcaption>Git</figcaption>
-           </figure>
-           <figure>
-              <i class="fas fa-terminal"></i>
-              <figcaption>C e C++</figcaption>
-           </figure>
-           <figure>
-            <i class="fas fa-gamepad"></i>
-            <figcaption>Gamer</figcaption>
-           </figure>
-          </p>
+      </nav>
+
+      <section class="home">
+        <div>
+          <div>
+            <img class="img-perfil" src="img/perfil.jpg" alt="">
+            <h1 class="site-title">Wellington P. Silva</h1>
+            <h2 class="site-subtitle">Ciência da Computação</h2>  
         </div>
+  
+        <div class="redes">
+          <ul>
+            <li><a href="https://www.instagram.com/wells.ps/" target="blank">
+            <img src="./img/instagram-logo.png" height="40" width="40"></a></li>
+            <li><a href="https://www.linkedin.com/in/wellingtonengps/" target="blank">
+            <img src="./img/linkedin-logo.png" height="40" width="40"></a></li>
+            <li><a href="https://github.com/wellingtonengps" target="blank">
+            <img src="./img/github-logo.png" height="40" width="40"></a></li>
+            <li><a href="https://www.facebook.com/wellingtonengps" target="blank">
+            <img src="./img/facebook-logo.png" height="40" width="40"></a></li>
+            </ul>
+        </div>
+      </section>
+
+    </header>
+   
+    <section class="sobre" id="sobre">
+      <h2 class="section-title">Sobre</h2>  
+      <p>
+        Somente com humildade é possível chegar longe. Aquele que confia demais em si mesmo e que acredita que não precisa de ajuda parachegaraonde   precisa chegar acaba se afogando antes de chegar na praia, por isso sigo sempre com humildade, reconhecendo aquilo que nãosei eestando  disposto a ouvir quando alguém se dispõe a me ensinar.
+      </p>
     </section>
+
+    <section class="competencias" id="competencias">
+      <h2 class="section-title">Competências</h2>
+      <div class="grid">
+        <figure><i class="fas fa-terminal"></i><figcaption>C e C++</figcaption></figure>
+        <figure><i class="fas fa-gamepad"></i><figcaption>Gamer</figcaption></figure>
+        <figure><i class="fab fa-js-square"></i><figcaption>JavaScript</figcaption></figure>
+        <figure><i class="fab fa-windows"></i><figcaption>Windows</figcaption></figure>
+        <figure><i class="fab fa-ubuntu"></i><figcaption>Ubuntu</figcaption></figure>
+        <figure><i class="fab fa-adobe"></i><figcaption>Adobe Photoshop</figcaption></figure>
+        <figure><i class="fab fa-css3-alt"></i><figcaption>CSS3</figcaption></figure>
+        <figure><i class="fab fa-html5"></i><figcaption>HTML5</figcaption></figure>
+        <figure><i class="fab fa-python"></i><figcaption>Python</figcaption></figure><figure>
+        <figure><i class="fab fa-git-alt"></i><figcaption>Git</figcaption></figure>
+      </div>
+    </section>
+
     <section class="formacao" id="formacao">
-      <h2 class="h2-pg">Formação</h2>
+      <h2 class="section-title">Formação</h2>
         <div class="grid">
           <figure>
             <img class="img" src="./img/ufjf.png" alt="ufjf">
@@ -100,8 +82,9 @@
           </figure>
         </div>
     </section>
+
     <section class="projetos" id="projetos">
-      <h2 class="h2-pg">Projetos</h2>
+      <h2 class="section-title">Projetos</h2>
         <div class="grid">  
           <figure>
             <img class="img" src="./img/fig1.png" alt="eCommerce">
@@ -109,10 +92,12 @@
           </figure>
           <figure>
             <img class="img" src="./img/fig2.png" alt=">Mobile">
-            <figcaption>Artigo publicado: <a href="https://www.tandfonline.com/doi/full/10.1080/14786419.2019.1624962?scroll=top&needAccess=true">Effect of anadenanthera colubrina protease inhibitors a Paulinos an inflammatory mediator</a></figcaption>
+            <figcaption>Artigo publicado: <a href="https://www.tandfonline.com/doi/full/10.1080/14786419.2019.1624962?  scroll=topneedAccess=true">Effect of anadenanthera colubrina protease inhibitors a Paulinos an inflammatory mediator</a></figcaption>
           </figure>
         </div>
     </section>
-    <footer class="footer">© 2020 Copyright  - Wellington P. Silva</footer>
-</body>
+    <footer class="footer">© 2020 Copyright - Wellington P. Silva</footer>
+  
+  </body>
+
 </html>
