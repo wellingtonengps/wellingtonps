@@ -6,8 +6,8 @@
 }
 
 body{
-  /*background-image: url('../img/background.jpg');*/
-  background-color: #2A354A;
+  background-image: url('../img/background.jpg');
+
   background-size: 100vw 100vh;
   height: 100vh;
   font-size: 12px; 
@@ -59,12 +59,14 @@ header{
 .menu ul {
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
 }
 
 .menu a{
   display: block;
-  padding: 10px 10px;
-  font-size: 1em;
+  font-size: 1.1em;
+  height: 100%;
+  padding: 10px;
 }
 
 figure a{
